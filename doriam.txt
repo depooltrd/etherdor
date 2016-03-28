@@ -3,7 +3,11 @@ stratumproxy enabled
 proxywallet 0xd18178cbadbf68ad8d78279d6db58f0c964e318c
 proxypool1 eth-us.dwarfpool.com:8008
 proxypool2 eth-eu.dwarfpool.com:8008
-flags --cl-global-work 16384 --farm-recheck 200
+flags --farm-recheck 200 --cl-local-work 128 --cl-global-work 16384
+#proxypool1 us1.ethpool.org:3333
+#proxypool2 eu1.ethpool.org:3333
+#flags --cl-global-work 16384 --farm-recheck 200
+globalpowertune 20
 globalfan 85
 
 # !!!!!!!!!!!!! IMPORTANT NOTICE !!!!!!!!!!!!!!!!!!
