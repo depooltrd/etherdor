@@ -6,7 +6,6 @@ proxypool2 eth-eu.dwarfpool.com:8008
 flags --farm-recheck 200 --cl-local-work 128 --cl-global-work 16384
 globalpowertune 20
 globalfan 85
-mem eb28b8 1500
 #proxypool1 us1.ethpool.org:3333
 #proxypool2 eu1.ethpool.org:3333
 #flags --cl-global-work 16384 --farm-recheck 200
