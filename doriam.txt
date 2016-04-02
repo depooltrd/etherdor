@@ -1,8 +1,8 @@
 maxgputemp 85
 stratumproxy enabled
-proxywallet 0xd18178cbadbf68ad8d78279d6db58f0c964e318c
-proxypool1 us1.ethpool.org:3333
-proxypool2 eu1.ethpool.org:3333
+proxywallet 0xd4ebcbcf67ad0e9274a9347c7768659d3f5b9518
+proxypool1 exp-us.dwarfpool.com:8018
+proxypool2 exp-eu.dwarfpool.com:8018
 flags --farm-recheck 200 --cl-local-work 128 --cl-global-work 16384
 globalpowertune 20
 globalfan 85
